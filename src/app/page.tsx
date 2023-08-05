@@ -8,17 +8,6 @@ import styles from "@/css/Animation.module.css";
 export default function Home() {
   const [aspectText, setAspectText] = useState("");
   const [aspectColor, setAspectColor] = useState("");
-  // useEffect(() => {
-  //   const u = document.querySelector("u");
-  //   u?.on
-  // }, []);
-
-  // useEffect(() => {
-  //   const u = document.querySelector("u");
-  //   u ? u.style.margin = "0 auto"  : ''
-  // }, [aspectText]);
-
-  function handleMouseEnter() {}
 
   return (
     <main className="flex w-[100dvw] h-[100dvh] items-start p-24 gap-8">
@@ -47,7 +36,7 @@ export default function Home() {
               }}
               onMouseLeave={() => setAspectText("")}
               target="_blank"
-              href={""}
+              href={"/online-portfolio"}
             >
               Fullstack Software Engineer
             </Link>
@@ -68,7 +57,7 @@ export default function Home() {
           <LinkText textColor="#749BC2">
             <Link
               onMouseEnter={() => {
-                setAspectText("lonely Person");
+                setAspectText("lonely person");
                 setAspectColor("#749BC2");
               }}
               onMouseLeave={() => setAspectText("")}

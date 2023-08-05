@@ -29,3 +29,29 @@
     stroke-dashoffset: 0;
   }
 }
+
+.left-slide-anim {
+  animation: 1s ease-out forwards slide-from-left;
+}
+
+.right-slide-anim {
+  animation: 1s ease-out forwards slide-from-right;
+}
+
+@keyframes slide-from-left {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: 10vw;
+  }
+}
+
+@keyframes slide-from-right {
+  from {
+    right: 0vw;
+  }
+  to {
+    right: 10vw;
+  }
+}
