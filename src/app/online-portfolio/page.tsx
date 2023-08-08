@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Experiences from "./_components/Experiences";
 import NotableProjects from "./_components/NotableProjects";
 import Skills from "./_components/Skills";

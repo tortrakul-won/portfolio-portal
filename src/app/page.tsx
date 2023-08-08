@@ -67,6 +67,19 @@ export default function Home() {
               Lonely Person
             </Link>
           </LinkText>
+          <LinkText textColor="#8C8ACF">
+            <Link
+              onMouseEnter={() => {
+                setAspectText("Cinemaphile");
+                setAspectColor("#8C8ACF");
+              }}
+              onMouseLeave={() => setAspectText("")}
+              target="_blank"
+              href={"/posters"}
+            >
+              Cinemaphile
+            </Link>
+          </LinkText>
         </div>
       </section>
       <section id="right-pane" className="flex flex-grow w-1/2 h-full justify-center content-center">
