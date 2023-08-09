@@ -54,19 +54,6 @@ export default function Home() {
               Photographer
             </Link>
           </LinkText>
-          <LinkText textColor="#749BC2">
-            <Link
-              onMouseEnter={() => {
-                setAspectText("lonely person");
-                setAspectColor("#749BC2");
-              }}
-              onMouseLeave={() => setAspectText("")}
-              target="_blank"
-              href={"https://www.instagram.com/trtrkl/"}
-            >
-              Lonely Person
-            </Link>
-          </LinkText>
           <LinkText textColor="#8C8ACF">
             <Link
               onMouseEnter={() => {
@@ -78,6 +65,19 @@ export default function Home() {
               href={"/posters"}
             >
               Image Maker
+            </Link>
+          </LinkText>
+          <LinkText textColor="#749BC2">
+            <Link
+              onMouseEnter={() => {
+                setAspectText("lonely person");
+                setAspectColor("#749BC2");
+              }}
+              onMouseLeave={() => setAspectText("")}
+              target="_blank"
+              href={"https://www.instagram.com/trtrkl/"}
+            >
+              Lonely Person
             </Link>
           </LinkText>
         </div>
