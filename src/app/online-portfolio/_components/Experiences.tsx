@@ -5,13 +5,13 @@ export default function Experiences() {
   return (
     <>
       <SectionHeader>Experiences</SectionHeader>
-      <h3 className="flex justify-between w-full text-lg font-semibold">
-        <span>
+      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+        <span className="w-2/3">
           <HL>Full-stack Software Engineer</HL>, Ngernturbo co. ltd.
         </span>
-        <span>Jan 2021 - Mar 2023</span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jan 2021 - Mar 2023</span>
       </h3>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside [&>*]:my-1">
         <li>
           Developed an internal host-to-host <HL>financial transaction system</HL> in collaboration with stakeholders from the company and the bank,
           conducting extensive research to identify the optimal solution, and working as part of a development team to build a reliable and efficient
@@ -28,9 +28,9 @@ export default function Experiences() {
         </li>
       </ul>
       <div className="w-full">
-        <h3 className="flex justify-between w-full text-lg font-semibold">
-          <span>Computer Science (B.Sc), Thammasat University</span>
-          <span>2016 - 2020</span>
+        <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+          <span className="w-2/3">Computer Science (B.Sc), Thammasat University</span>
+          <span className="w-1/3 text-[12px] lg:text-lg  text-end">2016 - 2020</span>
         </h3>
         <span>Final Project: CNN-based OCR for Handwritten Dental Symbols</span>
       </div>

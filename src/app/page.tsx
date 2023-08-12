@@ -10,7 +10,7 @@ export default function Home() {
   const [aspectColor, setAspectColor] = useState("");
 
   return (
-    <main className="flex w-[100dvw] h-[100dvh] items-start p-12 md:p-24 gap-8">
+    <main className="flex w-[100dvw] h-[100dvh] items-start p-12 md:p-24 gap-8 text-xs lg:text-base">
       <section id="left-pane" className="md:w-1/2">
         <div className="[&>*]:my-2 mb-6">
           <span className="text-lg md:text-2xl">Hello, my name is</span>
@@ -18,10 +18,7 @@ export default function Home() {
           <span className="text-2xl flex gap-1 justify-start">
             <span className="whitespace-pre">{"I am a "}</span>
             <span className="border-b-2 mb-[-2px] border-black flex-grow">
-              <u
-                className={`${styles["typing-anim"]} no-underline`}
-                style={{ color: aspectColor, animationPlayState: aspectText === "" ? "paused" : "running" }}
-              >
+              <u className={` no-underline`} style={{ color: aspectColor, animationPlayState: aspectText === "" ? "paused" : "running" }}>
                 {aspectText}
               </u>
             </span>

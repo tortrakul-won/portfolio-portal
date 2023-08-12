@@ -5,11 +5,11 @@ export default function NotableProjects() {
   return (
     <>
       <SectionHeader>Notable Projects</SectionHeader>
-      <h3 className="flex justify-between w-full  text-lg font-semibold">
-        <span>
+      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+        <span className="w-2/3">
           Open Education Platform, Saturday School <span className="text-xs ml-1">{"( appointed by BMA. )"}</span>
         </span>
-        <span>June 2023 - Present</span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">June 2023 - Present</span>
       </h3>
       <ul className="list-disc list-inside">
         <li>
