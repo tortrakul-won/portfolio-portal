@@ -18,12 +18,13 @@
 .path {
   stroke-dasharray: 80;
   stroke-dashoffset: 80;
-}
-
-.path:hover {
   animation: dash 1s ease-in forwards;
 }
-
+.path2 {
+  stroke-dasharray: 2;
+  stroke-dashoffset: 80;
+  animation: dash 1s ease-in forwards;
+}
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
