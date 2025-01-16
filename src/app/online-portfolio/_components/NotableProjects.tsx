@@ -11,7 +11,7 @@ export default function NotableProjects() {
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">June 2023 - Present</span>
       </h3>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside [&>*]:my-1">
         <li>
           Developed frontend and backend components for the Open Education Platform, matching schools and volunteers who interested in teaching after
           school subjects and non-conventional subjects.
