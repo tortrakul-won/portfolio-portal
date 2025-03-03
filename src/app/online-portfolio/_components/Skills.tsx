@@ -11,7 +11,7 @@ export default function Skills() {
           <HL>English : Fluent TU-GET (860/1000), IETLS (7.5/9)</HL>
         </li>
         <li>German : Basic</li>
-        <li>MS Office Adobe Photoshop, Lightroom, Canva, GSuite</li>
+        <li>MS Office Adobe Photoshop, Lightroom, Canva, GSuite, Stable Diffusion</li>
       </ul>
     </section>
   );

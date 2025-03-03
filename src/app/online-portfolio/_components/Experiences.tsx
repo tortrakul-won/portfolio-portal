@@ -11,20 +11,20 @@ export default function Experiences() {
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Aug 2023 - Dec 2024</span>
       </h3>
-      <ul className="list-disc list-inside [&>*]:my-2">
+      <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Served as sole developer for an <HL>automated order fulfillment system</HL> using C#, Hangfire, and Quartz Scheduler that streamlines
-          marketplace operations by automatically updating transaction statuses to {"Ready to Ship"} based on configurable time parameters,
-          successfully implemented and widely adopted by marketplace users.
+          Served as sole developer for <HL>back-end and front-end of an automated order fulfillment system</HL> using C#, Hangfire, and Quartz
+          Scheduler that streamlines marketplace operations by automatically updating transaction statuses to {"Ready to Ship"} based on configurable
+          time parameters, successfully implemented and widely adopted by marketplace users.
         </li>
         <li>
-          Served as sole frontend developer in <HL>redesigning the Sale Page using ASP.NET MVC and jQuery</HL>, implementing unified product cards
+          Served as sole <HL>frontend developer in redesigning the Sale Page using ASP.NET MVC and jQuery</HL>, implementing unified product cards
           with variants and smart stock-based variant selection, improving user experience despite legacy tech stack constraints.
         </li>
         <li>
-          Solely responsible for the frontend redesign of the {"Partial Ready to Ship"} project, collaborating closely with the UX/UI designer to
-          enhance user experience by implementing selective transaction status updates to {"Ready to Ship"} and adapting to the unique processes of
-          each marketplace while providing detailed status information for each transaction group.
+          Solely responsible for the frontend redesign implementation of the {"Partial Ready to Ship"} project, collaborating closely with the UX/UI
+          designer to enhance user experience by implementing selective transaction status updates to {"Ready to Ship"} and adapting to the unique
+          processes of each marketplace while providing detailed status information for each transaction group.
         </li>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
@@ -33,7 +33,7 @@ export default function Experiences() {
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Jan 2021 - Mar 2023</span>
       </h3>
-      <ul className="list-disc list-inside [&>*]:my-2">
+      <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
           Developed an internal host-to-host <HL>financial transaction system</HL> in collaboration with stakeholders from the company and the bank,
           conducting extensive research to identify the optimal solution, and working as part of a development team to build a reliable and efficient
