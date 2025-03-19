@@ -26,6 +26,16 @@ export default function Experiences() {
           designer to enhance user experience by implementing selective transaction status updates to {"Ready to Ship"} and adapting to the unique
           processes of each marketplace while providing detailed status information for each transaction group.
         </li>
+        <div className="border-b-2 pb-4 border-pink border-dashed">
+          <div>
+            <HL>Backend</HL>: C#, ASP.NET Core, Entity Framework, Amazon Web Services (SQS, Lambda)
+          </div>
+          <div>
+            <HL>Frontend</HL>: Vue.js, HTML, CSS, JavaScript, Cypress<span className="px-4"> </span>
+            <HL>Database</HL>: Postgres
+          </div>
+          <HL>Tools</HL>: Postman Test Script, Wiremock, Liquibase, Agile, Scrum, Jenkins, Git, Docker
+        </div>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
         <span className="w-2/3">
@@ -48,6 +58,16 @@ export default function Experiences() {
           Worked with the infrastructure team to ensure high availability of the worklist distribution system, demonstrating expertise in programming,
           problem-solving, and delivering business value through technology solutions, including research and integration with cloud services.
         </li>
+        <div className="border-b-2 pb-4 border-pink border-dashed">
+          <div>
+            <HL>Backend</HL>: C#, ASP.NET Core , Hangfire, Quartz.Net, Serilog
+          </div>
+          <div>
+            <HL>Frontend</HL>: ASP.NET MVC, jQuery, HTML, CSS, JavaScript, Bootstrap, React<span className="px-4"> </span>
+            <HL>Database</HL>: MS SQL Server, MongoDB
+          </div>
+          <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script ,Git, Agile, Scrum, Azure Application Insight
+        </div>
       </ul>
       <div className="w-full">
         <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
