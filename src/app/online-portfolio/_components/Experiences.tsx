@@ -7,6 +7,43 @@ export default function Experiences() {
       <SectionHeader>Experiences</SectionHeader>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
         <span className="w-2/3">
+          <HL>Full-stack Software Engineer</HL>, FWD Life Insurance Public Co., Ltd.
+        </span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">May 2025 - Present</span>
+      </h3>
+      <ul className="list-disc list-inside [&>*]:mb-2">
+        <li>
+          Architected a Publisher/Subscriber microservice from scratch using <HL>RabbitMQ</HL> to synchronize enterprise upstream data with Auth0,
+          managing user lifecycle operations (CUD) across two business flows (LA and IL).
+        </li>
+        <li>
+          Developed an extensible framework utilizing the <HL>Strategy Pattern</HL> with Generic Interfaces and KeyedServices, allowing the core
+          service "shell" to support multiple business logic implementations interchangeably.
+        </li>
+        <li>
+          Engineered a resilient error-handling system utilizing Dead Letter Queues (DLQ) to manage row-level failures, ensuring partial batch success
+          and providing on-demand Excel error reporting via API.
+        </li>
+        <li>
+          Led the full <HL>SDLC</HL> from design through SIT/UAT to production go-live, utilizing Docker/Podman for containerization and managing
+          application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
+        </li>
+        <li>
+          Investigate and fixing bugs both in frontend and backend, Help improving JQuery/Bootstrap-based webapp by implementing various QOL changes
+        </li>
+        <div className="border-b-2 pb-4 border-pink border-dashed">
+          <div>
+            <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Backend</HL>: ASP.NET MVC, JQuery, Bootstrap
+          </div>
+          <div>
+            <HL>Observability</HL>: ELK Stack<span className="px-4"> </span>
+            <HL>Database</HL>: SQL Server 2019
+          </div>
+          <HL>DevOps & Tools:</HL>Jenkins, Docker/Podman, Kubernetes (ConfigMaps), HashiCorp Vault, Postman, ServiceNow, Jira
+        </div>
+      </ul>
+      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+        <span className="w-2/3">
           <HL>Full-stack Software Engineer</HL>, ZortOut co. ltd.
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Aug 2023 - Dec 2024</span>
@@ -28,13 +65,13 @@ export default function Experiences() {
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
-            <HL>Backend</HL>: C#, ASP.NET Core, Entity Framework, Amazon Web Services (SQS, Lambda)
+            <HL>Backend</HL>: C#, ASP.NET Core , Hangfire, Quartz.Net, Serilog
           </div>
           <div>
-            <HL>Frontend</HL>: Vue.js, HTML, CSS, JavaScript, Cypress<span className="px-4"> </span>
-            <HL>Database</HL>: Postgres
+            <HL>Frontend</HL>: ASP.NET MVC, jQuery, HTML, CSS, JavaScript, Bootstrap, React<span className="px-4"> </span>
+            <HL>Database</HL>: MS SQL Server, MongoDB
           </div>
-          <HL>Tools</HL>: Postman Test Script, Wiremock, Liquibase, Agile, Scrum, Jenkins, Git, Docker
+          <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script ,Git, Agile, Scrum, Azure Application Insight
         </div>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
@@ -60,13 +97,13 @@ export default function Experiences() {
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
-            <HL>Backend</HL>: C#, ASP.NET Core , Hangfire, Quartz.Net, Serilog
+            <HL>Backend</HL>: C#, ASP.NET Core, Entity Framework, Amazon Web Services (SQS, Lambda)
           </div>
           <div>
-            <HL>Frontend</HL>: ASP.NET MVC, jQuery, HTML, CSS, JavaScript, Bootstrap, React<span className="px-4"> </span>
-            <HL>Database</HL>: MS SQL Server, MongoDB
+            <HL>Frontend</HL>: Vue.js, HTML, CSS, JavaScript, Cypress<span className="px-4"> </span>
+            <HL>Database</HL>: Postgres
           </div>
-          <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script ,Git, Agile, Scrum, Azure Application Insight
+          <HL>Tools</HL>: Postman Test Script, Wiremock, Liquibase, Agile, Scrum, Jenkins, Git, Docker
         </div>
       </ul>
       <div className="w-full">
