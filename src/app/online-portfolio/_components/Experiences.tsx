@@ -25,7 +25,7 @@ export default function Experiences() {
           and providing on-demand Excel error reporting via API.
         </li>
         <li>
-          Led the full <HL>SDLC</HL> from design through SIT/UAT to production go-live, utilizing Docker/Podman for containerization and managing
+          Handled the full <HL>SDLC</HL> from design through SIT/UAT to production go-live, utilizing Docker/Podman for containerization and managing
           application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
         </li>
         <li>
