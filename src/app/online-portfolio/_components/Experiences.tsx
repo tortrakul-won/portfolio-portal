@@ -18,7 +18,7 @@ export default function Experiences() {
         </li>
         <li>
           Developed an extensible framework utilizing the <HL>Strategy Pattern</HL> with Generic Interfaces and KeyedServices, allowing the core
-          service "shell" to support multiple business logic implementations interchangeably.
+          service to support multiple business logic implementations interchangeably.
         </li>
         <li>
           Engineered a resilient error-handling system utilizing Dead Letter Queues (DLQ) to manage row-level failures, ensuring partial batch success
