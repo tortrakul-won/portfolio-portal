@@ -29,7 +29,7 @@ export default function Experiences() {
           application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
         </li>
         <li>
-          Investigate and fixing bugs both in frontend and backend, Help improving JQuery/Bootstrap-based webapp by implementing various QOL changes
+          Investigate and fixing bugs, both in frontend and backend. Help improving JQuery/Bootstrap-based webapp by implementing various QOL changes
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
