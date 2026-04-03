@@ -58,7 +58,7 @@ export default function Experiences() {
           selection to improve UX within a legacy tech stack.
         </li>
         <li>
-          Implemented the "Partial Ready to Ship" UI, collaborating with UI/UX designers to enable selective transaction updates and provide clear
+          Implemented the {'"Partial Ready to Ship"'} UI, collaborating with UI/UX designers to enable selective transaction updates and provide clear
           status visibility across different marketplace processes.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
