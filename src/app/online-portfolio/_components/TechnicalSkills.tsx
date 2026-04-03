@@ -5,11 +5,11 @@ export default function TechnicalSkills() {
   return (
     <>
       <SectionHeader>Technical Skills</SectionHeader>
-      <div className="grid grid-cols-2 grid-rows-3 w-full [&>*]:my-1">
+      <div className="grid grid-cols-2 grid-rows-3 w-full gap-x-4 [&>*]:my-1">
         <div>
           <h3 className="font-medium">Programming Languages</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>C# (.Net Core)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL
+            <HL>C# (.Net)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL
           </span>
         </div>
         <div>
@@ -21,8 +21,8 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Tools & Technologies</h3>
           <span className="font-light lg:text-base text-xs">
-            Wiremock, Liquibase, Jenkins, <HL>Docker</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress, RabbitMQ, IIS Server, Hangfire, Quartz
-            Scheduler
+            Wiremock, Liquibase, Jenkins, <HL>Docker</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress, <HL>RabbitMQ</HL>, IIS Server, Hangfire,
+            Quartz Scheduler
           </span>
         </div>
         <div>
@@ -41,7 +41,8 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Frontend Tools</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>React, Vue</HL>, Vuex, <HL>Tailwind</HL>, Svelte, SvelteKit, Astro, ASP.NET MVC, JQuery, MUI, Next.Js, NestJS, OAuth2.0, JWT
+            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>JQuery</HL>, BootStrap, MUI, Next.Js, NestJS, OAuth2.0,
+            JWT
           </span>
         </div>
       </div>

@@ -33,7 +33,7 @@ export default function Experiences() {
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
-            <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Backend</HL>: ASP.NET MVC, JQuery, Bootstrap
+            <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Frontend</HL>: ASP.NET MVC, JQuery, Bootstrap
           </div>
           <div>
             <HL>Observability</HL>: ELK Stack<span className="px-4"> </span>
@@ -50,18 +50,16 @@ export default function Experiences() {
       </h3>
       <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Served as sole developer for <HL>back-end and front-end of an automated order fulfillment system</HL> using C#, Hangfire, and Quartz
-          Scheduler that streamlines marketplace operations by automatically updating transaction statuses to {"Ready to Ship"} based on configurable
-          time parameters, successfully implemented and widely adopted by marketplace users.
+          Developed an <HL>automated order fulfillment system</HL> using C#, Hangfire, and Quartz, streamlining marketplace operations by
+          auto-updating transaction statuses to {'"Ready to Ship"'} based on configurable time parameters.
         </li>
         <li>
-          Served as sole <HL>frontend developer in redesigning the Sale Page using ASP.NET MVC and jQuery</HL>, implementing unified product cards
-          with variants and smart stock-based variant selection, improving user experience despite legacy tech stack constraints.
+          <HL>Redesigned the Sale Page frontend </HL>using ASP.NET MVC and jQuery, implementing unified product cards and smart stock-based variant
+          selection to improve UX within a legacy tech stack.
         </li>
         <li>
-          Solely responsible for the frontend redesign implementation of the {"Partial Ready to Ship"} project, collaborating closely with the UX/UI
-          designer to enhance user experience by implementing selective transaction status updates to {"Ready to Ship"} and adapting to the unique
-          processes of each marketplace while providing detailed status information for each transaction group.
+          Implemented the "Partial Ready to Ship" UI, collaborating with UI/UX designers to enable selective transaction updates and provide clear
+          status visibility across different marketplace processes.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>

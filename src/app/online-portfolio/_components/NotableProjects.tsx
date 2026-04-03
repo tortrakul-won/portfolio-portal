@@ -73,7 +73,7 @@ export default function NotableProjects() {
         </li>
         <li>
           Independently handled complete development cycle and deployed on Cloudflare Pages, creating a performant tool that balances thoughtful user
-          experience with existential reflection
+          experience with effective visual representation
         </li>
       </ul>
     </>
