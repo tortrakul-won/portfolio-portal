@@ -15,7 +15,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Coding Knowledge</h3>
           <span className="font-light lg:text-base text-xs">
-            Data Structure, <HL>Unit Testing</HL>, Regression Test, Unix, <HL>Restful API</HL>, Web Scraping, Automation, Digital Image Processing
+            Data Structures, <HL>Unit Testing</HL>, Regression Testing, Unix, <HL>RESTful API</HL>, Web Scraping, Automation, Digital Image Processing
           </span>
         </div>
         <div>
@@ -34,7 +34,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Cloud-Based Technologies</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>AWS:</HL> EC2, SQS, Lambda, Batch, CloudWatch Step Function, API Gateway, Load Balancer <br />
+            <HL>AWS:</HL> EC2, SQS, Lambda, Batch, CloudWatch, Step Functions, API Gateway, Load Balancer <br />
             <HL>Others:</HL> Cloudflare Pages, Azure Application Insights
           </span>
         </div>

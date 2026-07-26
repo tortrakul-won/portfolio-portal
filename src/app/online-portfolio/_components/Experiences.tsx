@@ -29,7 +29,8 @@ export default function Experiences() {
           application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
         </li>
         <li>
-          Investigate and fixing bugs, both in frontend and backend. Help improving JQuery/Bootstrap-based webapp by implementing various QOL changes
+          Investigated and fixed bugs across the frontend and backend, and shipped ongoing quality-of-life improvements to a legacy JQuery/Bootstrap web
+          app.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
@@ -80,9 +81,8 @@ export default function Experiences() {
       </h3>
       <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Developed an internal host-to-host <HL>financial transaction system</HL> in collaboration with stakeholders from the company and the bank,
-          conducting extensive research to identify the optimal solution, and working as part of a development team to build a reliable and efficient
-          system using .NET and Vue.js while expanding my understanding of technical and financial considerations.
+          Built an internal host-to-host <HL>financial transaction system</HL> with company and bank stakeholders, researching the optimal solution and
+          delivering it as part of a development team on .NET and Vue.js.
         </li>
         <li>
           Designed and developed a <HL>worklist distribution system</HL> using .NET, AWS SQS and Lambda to automate task assignment, increase

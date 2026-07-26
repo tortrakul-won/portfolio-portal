@@ -13,8 +13,8 @@ export default function NotableProjects() {
       </h3>
       <ul className="list-disc list-inside [&>*]:my-1">
         <li>
-          Developed front-end and back-end components for the Open Education Platform, matching schools and volunteers who interested in teaching
-          after school subjects and non-conventional subjects.
+          Developed front-end and back-end components for the Open Education Platform, matching schools and volunteers who were interested in teaching
+          after-school and non-conventional subjects.
         </li>
         <li>
           Utilized technologies such as <HL>React</HL>, MUI, React-Router-DOM (Frontend) and NestJS, <HL>Prisma</HL> (Backend).
