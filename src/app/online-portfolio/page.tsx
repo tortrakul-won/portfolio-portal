@@ -40,6 +40,9 @@ export default function OnlinePortfolio() {
             </span>
           </span>
         </span>
+        <span className="text-center text-xs lg:text-base">
+          Full-stack engineer, 5+ yrs. C#/.NET-first, full SDLC ownership, insurance/fintech domain background. Open to roles with international teams.
+        </span>
         <Experiences />
         <NotableProjects />
         <TechnicalSkills />
