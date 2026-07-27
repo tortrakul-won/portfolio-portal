@@ -11,19 +11,10 @@ export default function NotableProjects() {
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Jun 2023 - Aug 2023</span>
       </h3>
-      <ul className="list-disc list-inside [&>*]:my-1">
-        <li>
-          Developed front-end and back-end components for the Open Education Platform, matching schools and volunteers who were interested in teaching
-          after-school and non-conventional subjects.
-        </li>
-        <li>
-          Utilized technologies such as <HL>React</HL>, MUI, React-Router-DOM (Frontend) and NestJS, <HL>Prisma</HL> (Backend).
-        </li>
-        <li>
-          Overcame challenges of coordinating volunteer schedules by quickly adapting to predetermined technologies and collaborating with current
-          volunteers to find optimal solutions.
-        </li>
-      </ul>
+      <p>
+        Built front-end and back-end for a platform matching schools with volunteers teaching after-school subjects — <HL>React</HL>, MUI,
+        React-Router-DOM and NestJS, <HL>Prisma</HL> — adapting quickly to a predetermined stack while coordinating volunteer scheduling.
+      </p>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
         <span className="w-2/3">
           <a target="_blank" href="https://socialized-film.pages.dev/">
@@ -36,46 +27,40 @@ export default function NotableProjects() {
         </span>
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Nov 2024 - Present</span>
       </h3>
-      <ul className="list-disc list-inside [&>*]:my-1">
-        <li>
-          Independently developed a personal photography portfolio using <HL>Astro</HL> framework to showcase film photography in its original aspect
-          ratios and full detail
-        </li>
-        <li>
-          Engineered a responsive solution that preserves the integrity of photographs across all screen sizes, solving the common problem of image
-          cropping on standard platforms
-        </li>
-        <li>
-          Built and deployed the complete project solo on <HL>Cloudflare Pages</HL>—from initial concept to final implementation—demonstrating
-          self-directed learning and technical problem-solving skills
-        </li>
-      </ul>
+      <p>
+        Independently built and deployed a personal photography portfolio on <HL>Astro</HL> and <HL>Cloudflare Pages</HL>, preserving original aspect
+        ratios and full detail across all screen sizes.
+      </p>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
         <span className="w-2/3">
-          <a target="_blank" href="https://life-countdown-th.pages.dev/">
-            <span className="underline">Life Countdown Widget</span>
+          <a target="_blank" href="https://github.com/tortrakul-won/rentspace-backend">
+            <span className="underline">RentSpace</span>
             <sup className="ml-1">
               <img className="inline h-4" src="/svg/external-link.svg" alt="external link icon"></img>
             </sup>
           </a>
           , Personal Project
         </span>
-        <span className="w-1/3 text-[12px] lg:text-lg text-end">Dec 2024 - Present</span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">May 2026 - Jun 2026</span>
       </h3>
-      <ul className="list-disc list-inside [&>*]:my-1">
-        <li>
-          Designed and developed an embeddable web component that visually represents {"users'"} remaining lifetime based on birth date and expected
-          lifespan inputs
-        </li>
-        <li>
-          Built with <HL>SvelteKit</HL> and <HL>Tailwind</HL> to create a <HL>responsive widget</HL> that dynamically adjusts block size and time
-          representation based on screen dimensions, ensuring optimal display across all devices
-        </li>
-        <li>
-          Independently handled complete development cycle and deployed on Cloudflare Pages, creating a performant tool that balances thoughtful user
-          experience with effective visual representation
-        </li>
-      </ul>
+      <p>
+        Full-stack short-term space-rental marketplace for Thailand — <HL>Go</HL> (chi, sqlc, pgx) REST API and <HL>Vue 3</HL>/TypeScript frontend,
+        entirely built through <HL>Claude Code</HL> with no manual coding. Modeled owner/renter roles, a booking state machine, R2 file uploads, and
+        Thai tax-invoice generation (VAT, PDF via Gotenberg); shipped via feature-branch/PR workflow across 130+ commits on{" "}
+        <a className="underline" target="_blank" href="https://github.com/tortrakul-won/rentspace-frontend">
+          frontend
+        </a>{" "}
+        and backend repos.
+      </p>
+      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+        <span className="w-2/3">ESP32-S3 Smart Alarm Display, Personal Project</span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jul 2026 - Present</span>
+      </h3>
+      <p>
+        Embedded smart-alarm display on an <HL>ESP32-S3</HL> microcontroller (C++/Arduino), entirely built through <HL>Claude Code</HL> with no manual
+        coding. Implemented Wi-Fi asset sync and OTA against a self-hosted fly.io server — swapped mbedTLS for wolfSSL after a TLS memory bug — and
+        fixed low-level failures (DMA bounce-buffer crashes, audio/USB sync), each documented in a written postmortem.
+      </p>
     </>
   );
 }
