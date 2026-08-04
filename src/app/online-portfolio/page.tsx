@@ -17,30 +17,20 @@ export default function OnlinePortfolio() {
       <div className={`invisible lg:visible fixed h-full w-[1px] bg-charcoal bottom-0 right-[10vw] ${styles["right-slide-anim"]}`}></div>
       <section id="header" className="flex justify-center flex-col items-center [&>*]:mb-2 w-[90vw] lg:w-[70vw] text-xs lg:text-base">
         <h1 className="text-5xl lg:text-6xl font-serif text-center">Tortrakul Wonglieng</h1>
-        <span className=" flex justify-center flex-col gap-1 lg:flex-row items-start lg:items-center lg:text-base text-xs">
+        <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 lg:text-base text-xs">
           <span>Bangkok, Thailand</span>
+          <span><b>Tel.</b> <a className="underline" href="tel:+66907126833">+66 90 712 6833</a></span>
+          <span><b>E-mail</b>: <a className="underline" href="mailto:tortrakulwonglieng@gmail.com">tortrakulwonglieng@gmail.com</a></span>
           <span>
-            {" "}
-            <span className="inline-block ml-2">
-              <b>Tel.</b>{" "}
-              <a className="underline" href="tel:+66907126833">
-                +66 90 712 6833
-              </a>{" "}
-            </span>
-            <span className="inline-block ml-2">
-              <b>E-mail</b> :{" "}
-              <a className="underline" href="mailto:tortrakulwonglieng@gmail.com">
-                tortrakulwonglieng@gmail.com
-              </a>
-            </span>
-            <span className="inline-block ml-2">
-              <b>LinkedIn</b> :{" "}
-              <a className="underline" href="https://www.linkedin.com/in/tortrakul-wonglieng-b2a37a204/" target="_blank">
-                tortrakul-wonglieng
-              </a>
-            </span>
+            <a
+              className="underline inline-flex items-center gap-1"
+              href="https://www.linkedin.com/in/tortrakul-wonglieng-b2a37a204/"
+              target="_blank"
+            >
+              <img className="inline h-4" src="/svg/linkedin.svg" alt="LinkedIn" /> LinkedIn
+            </a>
           </span>
-        </span>
+        </div>
         <Profile />
         <Experiences />
         <NotableProjects />

@@ -45,8 +45,8 @@ export default function NotableProjects() {
       </h3>
       <p>
         Full-stack short-term space-rental marketplace for Thailand — <HL>Go</HL> (chi, sqlc, pgx) REST API and <HL>Vue 3</HL>/TypeScript frontend,
-        entirely built through <HL>Claude Code</HL> with no manual coding. Modeled owner/renter roles, a booking state machine, R2 file uploads, and
-        Thai tax-invoice generation (VAT, PDF via Gotenberg); shipped via feature-branch/PR workflow across 130+ commits on{" "}
+        AI-paired end-to-end with full ownership of architecture and code review. Modeled owner/renter roles, a booking state machine, R2 file
+        uploads, and Thai tax-invoice generation (VAT, PDF via Gotenberg); shipped via feature-branch/PR workflow across 130+ commits on{" "}
         <a className="underline" target="_blank" href="https://github.com/tortrakul-won/rentspace-frontend">
           frontend
         </a>{" "}
@@ -57,9 +57,9 @@ export default function NotableProjects() {
         <span className="w-1/3 text-[12px] lg:text-lg text-end">Jul 2026 - Present</span>
       </h3>
       <p>
-        Embedded smart-alarm display on an <HL>ESP32-S3</HL> microcontroller (C++/Arduino), entirely built through <HL>Claude Code</HL> with no manual
-        coding. Implemented Wi-Fi asset sync and OTA against a self-hosted fly.io server — swapped mbedTLS for wolfSSL after a TLS memory bug — and
-        fixed low-level failures (DMA bounce-buffer crashes, audio/USB sync), each documented in a written postmortem.
+        Embedded smart-alarm display on an <HL>ESP32-S3</HL> microcontroller (C++/Arduino), AI-paired end-to-end with full ownership of architecture
+        and debugging. Implemented Wi-Fi asset sync and OTA against a self-hosted fly.io server — swapped mbedTLS for wolfSSL after a TLS memory
+        bug — and fixed low-level failures (DMA bounce-buffer crashes, audio/USB sync), each documented in a written postmortem.
       </p>
     </>
   );

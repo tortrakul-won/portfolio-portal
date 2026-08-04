@@ -28,10 +28,6 @@ export default function Experiences() {
           Handled the full <HL>SDLC</HL> from design through SIT/UAT to production go-live, utilizing Docker/Podman for containerization and managing
           application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
         </li>
-        <li>
-          Investigated and fixed bugs across the frontend and backend, and shipped ongoing quality-of-life improvements to a legacy JQuery/Bootstrap web
-          app.
-        </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
             <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Frontend</HL>: ASP.NET MVC, JQuery, Bootstrap

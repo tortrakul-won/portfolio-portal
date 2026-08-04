@@ -8,10 +8,12 @@ export default function Skills() {
       <ul className="list-disc list-inside">
         <li>Thai : Native</li>
         <li>
-          <HL>English : Fluent TU-GET (860/1000), IELTS (7.5/9)</HL>
+          <HL>English : Fluent IELTS (7.5/9) TU-GET (860/1000)</HL>
         </li>
         <li>German : Basic</li>
-        <li>MS Office, Adobe Photoshop, Lightroom, Canva, GSuite</li>
+        <li>
+          <HL>AI-Assisted Development: Claude Code</HL>
+        </li>
       </ul>
     </section>
   );
