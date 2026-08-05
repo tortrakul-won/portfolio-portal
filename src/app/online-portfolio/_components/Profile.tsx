@@ -6,7 +6,7 @@ export default function Profile() {
     <>
       <SectionHeader>Summary</SectionHeader>
       <p className="w-full text-left">
-        Full-stack engineer with <b>5+ years</b> building production systems <HL>C#/.NET-first</HL>, with <HL>full SDLC ownership</HL> from design
+        Full-stack engineer with <b>5+ years</b> of experience building production systems, primarily using <HL>C#/.NET</HL>, with <HL>full SDLC ownership</HL> from design
         through production go-live. Experience in <HL>insurance and fintech</HL>, including host-to-host banking integrations and enterprise
         identity/data synchronization. <b>Open to roles with international teams.</b>
       </p>

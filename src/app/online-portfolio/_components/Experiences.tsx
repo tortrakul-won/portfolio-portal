@@ -30,13 +30,13 @@ export default function Experiences() {
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
-            <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Frontend</HL>: ASP.NET MVC, JQuery, Bootstrap
+            <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Frontend</HL>: ASP.NET MVC, jQuery, Bootstrap
           </div>
           <div>
             <HL>Observability</HL>: ELK Stack<span className="px-4"> </span>
             <HL>Database</HL>: SQL Server 2019
           </div>
-          <HL>DevOps & Tools:</HL>Jenkins, Docker/Podman, Kubernetes (ConfigMaps), HashiCorp Vault, Postman, ServiceNow, Jira
+          <HL>DevOps & Tools:</HL> Jenkins, Docker/Podman, Kubernetes (ConfigMaps), HashiCorp Vault, Postman, ServiceNow, Jira
         </div>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
@@ -60,7 +60,7 @@ export default function Experiences() {
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
-            <HL>Backend</HL>: C#, ASP.NET Core , Hangfire, Quartz.Net, Serilog
+            <HL>Backend</HL>: C#, ASP.NET Core, Hangfire, Quartz.Net, Serilog
           </div>
           <div>
             <HL>Frontend</HL>: ASP.NET MVC, jQuery, HTML, CSS, JavaScript, Bootstrap, React<span className="px-4"> </span>

@@ -41,7 +41,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Frontend Tools</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>JQuery</HL>, BootStrap, MUI, Next.Js, NestJS, OAuth2.0,
+            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>jQuery</HL>, Bootstrap, MUI, Next.js, NestJS, OAuth2.0,
             JWT
           </span>
         </div>
