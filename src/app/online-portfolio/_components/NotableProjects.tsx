@@ -6,30 +6,13 @@ export default function NotableProjects() {
     <>
       <SectionHeader>Notable Projects</SectionHeader>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
-        <span className="w-2/3">
-          Open Education Platform, Saturday School <span className="text-xs ml-1">{"( appointed by BMA. )"}</span>
-        </span>
-        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jun 2023 - Aug 2023</span>
+        <span className="w-2/3">ESP32-S3 Smart Alarm Display, Personal Project</span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jul 2026 - Present</span>
       </h3>
       <p>
-        Built front-end and back-end for a platform matching schools with volunteers teaching after-school subjects — <HL>React</HL>, MUI,
-        React-Router-DOM and NestJS, <HL>Prisma</HL> — adapting quickly to a predetermined stack while coordinating volunteer scheduling.
-      </p>
-      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
-        <span className="w-2/3">
-          <a target="_blank" href="https://socialized-film.pages.dev/">
-            <span className="underline">Socialized.Film Website</span>
-            <sup className="ml-1">
-              <img className="inline h-4" src="/svg/external-link.svg" alt="external link icon"></img>
-            </sup>
-          </a>
-          , Personal Project
-        </span>
-        <span className="w-1/3 text-[12px] lg:text-lg text-end">Nov 2024 - Present</span>
-      </h3>
-      <p>
-        Independently built and deployed a personal photography portfolio on <HL>Astro</HL> and <HL>Cloudflare Pages</HL>, preserving original aspect
-        ratios and full detail across all screen sizes.
+        Embedded smart-alarm display on an <HL>ESP32-S3</HL> microcontroller (C++/Arduino), AI-paired end-to-end with full ownership of architecture
+        and debugging. Implemented Wi-Fi asset sync and OTA against a self-hosted fly.io server — swapped mbedTLS for wolfSSL after a TLS memory
+        bug — and fixed low-level failures (DMA bounce-buffer crashes, audio/USB sync), each documented in a written postmortem.
       </p>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
         <span className="w-2/3">
@@ -53,13 +36,30 @@ export default function NotableProjects() {
         and backend repos.
       </p>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
-        <span className="w-2/3">ESP32-S3 Smart Alarm Display, Personal Project</span>
-        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jul 2026 - Present</span>
+        <span className="w-2/3">
+          <a target="_blank" href="https://socialized-film.pages.dev/">
+            <span className="underline">Socialized.Film Website</span>
+            <sup className="ml-1">
+              <img className="inline h-4" src="/svg/external-link.svg" alt="external link icon"></img>
+            </sup>
+          </a>
+          , Personal Project
+        </span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">Nov 2024 - Feb 2025</span>
       </h3>
       <p>
-        Embedded smart-alarm display on an <HL>ESP32-S3</HL> microcontroller (C++/Arduino), AI-paired end-to-end with full ownership of architecture
-        and debugging. Implemented Wi-Fi asset sync and OTA against a self-hosted fly.io server — swapped mbedTLS for wolfSSL after a TLS memory
-        bug — and fixed low-level failures (DMA bounce-buffer crashes, audio/USB sync), each documented in a written postmortem.
+        Independently built and deployed a personal photography portfolio on <HL>Astro</HL> and <HL>Cloudflare Pages</HL>, preserving original aspect
+        ratios and full detail across all screen sizes.
+      </p>
+      <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
+        <span className="w-2/3">
+          Open Education Platform, Saturday School <span className="text-xs ml-1">{"( appointed by BMA. )"}</span>
+        </span>
+        <span className="w-1/3 text-[12px] lg:text-lg text-end">Jun 2023 - Aug 2023</span>
+      </h3>
+      <p>
+        Built front-end and back-end for a platform matching schools with volunteers teaching after-school subjects — <HL>React</HL>, MUI,
+        React-Router-DOM and NestJS, <HL>Prisma</HL> — adapting quickly to a predetermined stack while coordinating volunteer scheduling.
       </p>
     </>
   );

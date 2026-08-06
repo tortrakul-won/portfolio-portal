@@ -13,20 +13,20 @@ export default function Experiences() {
       </h3>
       <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Architected a Publisher/Subscriber microservice from scratch using <HL>RabbitMQ</HL> to synchronize enterprise upstream data with Auth0,
-          managing user lifecycle operations (CUD) across two business flows (LA and IL).
+          Architected a Publisher/Subscriber microservice using <HL>RabbitMQ</HL> to sync enterprise data with Auth0, managing user lifecycle (CUD)
+          across two business flows (LA, IL).
         </li>
         <li>
           Developed an extensible framework utilizing the <HL>Strategy Pattern</HL> with Generic Interfaces and KeyedServices, allowing the core
           service to support multiple business logic implementations interchangeably.
         </li>
         <li>
-          Engineered a resilient error-handling system utilizing Dead Letter Queues (DLQ) to manage row-level failures, ensuring partial batch success
-          and providing on-demand Excel error reporting via API.
+          Engineered a resilient error-handling system using Dead Letter Queues (DLQ) for row-level failures, ensuring partial batch success with
+          on-demand Excel error reports via API.
         </li>
         <li>
-          Handled the full <HL>SDLC</HL> from design through SIT/UAT to production go-live, utilizing Docker/Podman for containerization and managing
-          application configurations via Kubernetes ConfigMaps, HashiCorp Vault, going through Change Management process.
+          Owned full <HL>SDLC</HL> from design through SIT/UAT to production go-live — containerized via Docker/Podman, managed configs via
+          Kubernetes ConfigMaps and HashiCorp Vault, per Change Management.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
@@ -47,16 +47,16 @@ export default function Experiences() {
       </h3>
       <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Developed an <HL>automated order fulfillment system</HL> using C#, Hangfire, and Quartz, streamlining marketplace operations by
-          auto-updating transaction statuses to {'"Ready to Ship"'} based on configurable time parameters.
+          Developed an <HL>automated order fulfillment system</HL> using C#, Hangfire, and Quartz — auto-updating transaction statuses to{" "}
+          {'"Ready to Ship"'} on configurable time triggers.
         </li>
         <li>
-          <HL>Redesigned the Sale Page frontend </HL>using ASP.NET MVC and jQuery, implementing unified product cards and smart stock-based variant
-          selection to improve UX within a legacy tech stack.
+          <HL>Redesigned the Sale Page frontend </HL>using ASP.NET MVC and jQuery — unified product cards, smart stock-based variant selection,
+          improved UX within a legacy stack.
         </li>
         <li>
-          Implemented the {'"Partial Ready to Ship"'} UI, collaborating with UI/UX designers to enable selective transaction updates and provide clear
-          status visibility across different marketplace processes.
+          Implemented the {'"Partial Ready to Ship"'} UI with UI/UX designers, enabling selective transaction updates and clear status visibility
+          across marketplace processes.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>
@@ -77,17 +77,16 @@ export default function Experiences() {
       </h3>
       <ul className="list-disc list-inside [&>*]:mb-2">
         <li>
-          Built an internal host-to-host <HL>financial transaction system</HL> with company and bank stakeholders, researching the optimal solution and
-          delivering it as part of a development team on .NET and Vue.js.
+          Built an internal host-to-host <HL>financial transaction system</HL> with bank stakeholders — researched the optimal solution and delivered
+          it with a .NET/Vue.js team.
         </li>
         <li>
-          Designed and developed a <HL>worklist distribution system</HL> using .NET, AWS SQS and Lambda to automate task assignment, increase
-          efficiency, and reduce workload, conducting thorough research and creating a proof-of-concept to find suitable technologies and workarounds
-          for system limitations.
+          Designed a <HL>worklist distribution system</HL> on .NET, AWS SQS and Lambda to automate task assignment — researched and prototyped to
+          work around system limitations.
         </li>
         <li>
-          Worked with the infrastructure team to ensure high availability of the worklist distribution system, demonstrating expertise in programming,
-          problem-solving, and delivering business value through technology solutions, including research and integration with cloud services.
+          Partnered with the infrastructure team to ensure high availability of the worklist distribution system, integrating cloud services and
+          resolving scaling issues.
         </li>
         <div className="border-b-2 pb-4 border-pink border-dashed">
           <div>

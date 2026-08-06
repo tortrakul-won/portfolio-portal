@@ -22,7 +22,7 @@ export default function TechnicalSkills() {
           <h3 className="font-medium">Tools & Technologies</h3>
           <span className="font-light lg:text-base text-xs">
             Wiremock, Liquibase, Jenkins, <HL>Docker</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress, <HL>RabbitMQ</HL>, IIS Server, Hangfire,
-            Quartz Scheduler
+            Quartz Scheduler, NestJS
           </span>
         </div>
         <div>
@@ -41,8 +41,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Frontend Tools</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>jQuery</HL>, Bootstrap, MUI, Next.js, NestJS, OAuth2.0,
-            JWT
+            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>jQuery</HL>, Bootstrap, MUI, Next.js, OAuth2.0, JWT
           </span>
         </div>
       </div>
