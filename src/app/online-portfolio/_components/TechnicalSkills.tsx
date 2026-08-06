@@ -9,20 +9,21 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Programming Languages</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>C# (.Net)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL
+            <HL>C# (.Net)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL, Go
           </span>
         </div>
         <div>
           <h3 className="font-medium">Coding Knowledge</h3>
           <span className="font-light lg:text-base text-xs">
-            Data Structures, <HL>Unit Testing</HL>, Regression Testing, Unix, <HL>RESTful API</HL>, Web Scraping, Automation, Digital Image Processing
+            Data Structures, <HL>Unit Testing</HL>, Regression Testing, Unix, <HL>RESTful API</HL>, <HL>Microservices</HL>, Web Scraping, Automation,
+            Digital Image Processing
           </span>
         </div>
         <div>
           <h3 className="font-medium">Tools & Technologies</h3>
           <span className="font-light lg:text-base text-xs">
-            Wiremock, Liquibase, Jenkins, <HL>Docker</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress, <HL>RabbitMQ</HL>, IIS Server, Hangfire,
-            Quartz Scheduler, NestJS
+            Wiremock, Liquibase, Jenkins, <HL>CI/CD</HL>, <HL>Docker</HL>, <HL>Kubernetes</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress,
+            <HL>RabbitMQ</HL>, IIS Server, Hangfire, Quartz Scheduler, NestJS, <HL>Entity Framework Core</HL>, OAuth2.0, JWT
           </span>
         </div>
         <div>
@@ -41,7 +42,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Frontend Tools</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>jQuery</HL>, Bootstrap, MUI, Next.js, OAuth2.0, JWT
+            <HL>React, Vue</HL>, Vuex, Tailwind, Svelte, SvelteKit, Astro, ASP.NET MVC, <HL>jQuery</HL>, Bootstrap, MUI, Next.js
           </span>
         </div>
       </div>
