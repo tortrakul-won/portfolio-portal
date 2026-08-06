@@ -11,7 +11,7 @@ export default function Profile() {
         identity/data synchronization. <b>Open to roles with international teams.</b>
       </p>
       <div className="w-full border-t border-gray-300 pt-2 text-left font-semibold">
-        5+ yrs. experience &middot; C#/.NET &middot; Insurance &amp; Fintech &middot; Full SDLC &middot; Open to international teams
+        5+ yrs. experience &middot; C#/.NET &middot; Insurance &amp; Fintech &middot; Full SDLC &middot; Fluent English &middot; Open to international teams
       </div>
     </>
   );
