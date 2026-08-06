@@ -5,7 +5,7 @@ export default function TechnicalSkills() {
   return (
     <>
       <SectionHeader>Technical Skills</SectionHeader>
-      <div className="grid grid-cols-2 grid-rows-3 w-full gap-x-4 [&>*]:my-1">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 w-full gap-x-4 [&>*]:my-1">
         <div>
           <h3 className="font-medium">Programming Languages</h3>
           <span className="font-light lg:text-base text-xs">

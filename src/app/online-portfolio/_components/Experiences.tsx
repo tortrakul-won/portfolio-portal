@@ -28,7 +28,7 @@ export default function Experiences() {
           Owned full <HL>SDLC</HL> from design through SIT/UAT to production go-live — containerized via Docker/Podman, managed configs via
           Kubernetes ConfigMaps and HashiCorp Vault, per Change Management.
         </li>
-        <div className="border-b-2 pb-4 border-pink border-dashed">
+        <div className="hidden lg:block border-b-2 pb-4 border-pink border-dashed">
           <div>
             <HL>Backend</HL>: C#, .NET 8, WebAPI, Entity Framework <span className="px-4"> </span> <HL>Frontend</HL>: ASP.NET MVC, jQuery, Bootstrap
           </div>
@@ -37,6 +37,9 @@ export default function Experiences() {
             <HL>Database</HL>: SQL Server 2019
           </div>
           <HL>DevOps & Tools:</HL> Jenkins, Docker/Podman, Kubernetes (ConfigMaps), HashiCorp Vault, Postman, ServiceNow, Jira
+        </div>
+        <div className="lg:hidden border-b-2 pb-4 border-pink border-dashed">
+          <HL>Tech:</HL> C#, .NET 8, EF Core, RabbitMQ, SQL Server, Kubernetes, Docker, Vault, ELK
         </div>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
@@ -58,7 +61,7 @@ export default function Experiences() {
           Implemented the {'"Partial Ready to Ship"'} UI with UI/UX designers, enabling selective transaction updates and clear status visibility
           across marketplace processes.
         </li>
-        <div className="border-b-2 pb-4 border-pink border-dashed">
+        <div className="hidden lg:block border-b-2 pb-4 border-pink border-dashed">
           <div>
             <HL>Backend</HL>: C#, ASP.NET Core, Hangfire, Quartz.Net, Serilog
           </div>
@@ -67,6 +70,9 @@ export default function Experiences() {
             <HL>Database</HL>: MS SQL Server, MongoDB
           </div>
           <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script ,Git, Agile, Scrum, Azure Application Insight
+        </div>
+        <div className="lg:hidden border-b-2 pb-4 border-pink border-dashed">
+          <HL>Tech:</HL> C#, ASP.NET Core, Hangfire, Quartz.Net, ASP.NET MVC, jQuery, MS SQL Server, MongoDB, React
         </div>
       </ul>
       <h3 className="flex justify-between w-full text-sm lg:text-lg font-semibold">
@@ -88,7 +94,7 @@ export default function Experiences() {
           Partnered with the infrastructure team to ensure high availability of the worklist distribution system, integrating cloud services and
           resolving scaling issues.
         </li>
-        <div className="border-b-2 pb-4 border-pink border-dashed">
+        <div className="hidden lg:block border-b-2 pb-4 border-pink border-dashed">
           <div>
             <HL>Backend</HL>: C#, ASP.NET Core, Entity Framework, Amazon Web Services (SQS, Lambda)
           </div>
@@ -97,6 +103,9 @@ export default function Experiences() {
             <HL>Database</HL>: Postgres
           </div>
           <HL>Tools</HL>: Postman Test Script, Wiremock, Liquibase, Agile, Scrum, Jenkins, Git, Docker
+        </div>
+        <div className="lg:hidden border-b-2 pb-4 border-pink border-dashed">
+          <HL>Tech:</HL> C#, ASP.NET Core, Entity Framework, AWS (SQS, Lambda), Vue.js, Postgres, Docker
         </div>
       </ul>
       <div className="w-full">
