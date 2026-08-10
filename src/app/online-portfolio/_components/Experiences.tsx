@@ -94,6 +94,7 @@ export default function Experiences() {
           Partnered with the infrastructure team to ensure high availability of the worklist distribution system, integrating cloud services and
           resolving scaling issues.
         </li>
+        <li>Mentored interns with technical guidance and light pairing, helping them ramp up on the team's codebase and workflows.</li>
         <div className="hidden lg:block border-b-2 pb-4 border-pink border-dashed">
           <div>
             <HL>Backend</HL>: C#, ASP.NET Core, Entity Framework, Amazon Web Services (SQS, Lambda)
