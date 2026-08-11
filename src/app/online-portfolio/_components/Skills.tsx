@@ -6,11 +6,11 @@ export default function Skills() {
     <section className="w-full [&>*]:my-1">
       <SectionHeader>Skills</SectionHeader>
       <ul className="list-disc list-inside">
-        <li>Thai : Native</li>
+        <li>Thai: Native</li>
         <li>
-          <HL>English : Fluent IELTS (7.5/9) TU-GET (860/1000)</HL>
+          <HL>English: Fluent IELTS (7.5/9) TU-GET (860/1000)</HL>
         </li>
-        <li>German : Basic</li>
+        <li>German: Basic</li>
         <li>
           <HL>AI-Assisted Development: Claude Code</HL>
         </li>

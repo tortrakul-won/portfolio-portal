@@ -9,7 +9,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Programming Languages</h3>
           <span className="font-light lg:text-base text-xs">
-            <HL>C# (.Net)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL, Go
+            <HL>C# (.NET)</HL>, Python, C, JavaScript, TypeScript, Java, HTML, CSS, SQL, Go
           </span>
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function TechnicalSkills() {
         <div>
           <h3 className="font-medium">Tools & Technologies</h3>
           <span className="font-light lg:text-base text-xs">
-            Wiremock, Liquibase, Jenkins, <HL>CI/CD</HL>, <HL>Docker</HL>, <HL>Kubernetes</HL>, Figma, Zeplin, Kibana, <HL>GIT</HL>, Cypress,{" "}
+            Wiremock, Liquibase, Jenkins, <HL>CI/CD</HL>, <HL>Docker</HL>, <HL>Kubernetes</HL>, Figma, Zeplin, Kibana, <HL>Git</HL>, Cypress,{" "}
             <HL>RabbitMQ</HL>, IIS Server, Hangfire, Quartz Scheduler, NestJS, <HL>Entity Framework Core</HL>, OAuth2.0, JWT
           </span>
         </div>

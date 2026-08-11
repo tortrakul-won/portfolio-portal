@@ -69,7 +69,7 @@ export default function Experiences() {
             <HL>Frontend</HL>: ASP.NET MVC, jQuery, HTML, CSS, JavaScript, Bootstrap, React<span className="px-4"> </span>
             <HL>Database</HL>: MS SQL Server, MongoDB
           </div>
-          <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script ,Git, Agile, Scrum, Azure Application Insight
+          <HL>Tools</HL>: IIS (Internet Information Services), Postman Test Script, Git, Agile, Scrum, Azure Application Insights
         </div>
         <div className="lg:hidden border-b-2 pb-4 border-pink border-dashed">
           <HL>Tech:</HL> C#, ASP.NET Core, Hangfire, Quartz.Net, ASP.NET MVC, jQuery, MS SQL Server, MongoDB, React
